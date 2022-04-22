@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './NavBar.css';
 import {MenuItems} from "./MenuItems"
 import { Button } from '../../Button';
+import Cart from "./cartwidget";
+
 
 
 // function NavBar(props) {
@@ -46,9 +48,11 @@ class NavBar extends Component{
 
                     )}
                 </ul>
+                <Cart />
                 <Button> Sign up</Button>
             </nav>
         )
     }
 }
 export default NavBar;
+

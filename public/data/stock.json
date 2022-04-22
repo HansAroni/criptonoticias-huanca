@@ -1,0 +1,94 @@
+[
+    {
+    "id":1,
+    "nombre":"Reglas",
+    "tipo":"Plastico",
+    "Genero":"Utiles escolares", 
+    "precio":50, 
+    "img":"img/reglas.jpg",
+    "Descripcion":"Conjunto de 4 reglas de colores, muy buena calidad y a un increible precio!", 
+    "cantidad":1
+    
+},  
+    {
+    "id":2, 
+    "nombre":"Lapices de colores",
+    "tipo":"Madera",
+    "Genero":"Utiles escolares", 
+    "precio":600, 
+    "img":"img/lapices-de-colores.jpg",
+    "Descripcion":"24+3 lapices de colores, marca Faber-Castell. La mejor calidad en lapices!", 
+    "cantidad":1
+},
+    {
+    "id":3,
+    "nombre":"Sacapuntas",
+    "tipo":"Plastico",
+    "Genero":"Utiles escolares",
+    "precio":150,
+    "img":"img/sacapuntas.jpg",
+    "Descripcion":"Sacapuntas marca Faber-Castell. con 5 años de garantia",
+    "cantidad":1
+},
+    {
+    "id":4,     
+    "nombre":"Cuadernos",
+    "tipo":"Cuadernos rayados",
+    "Genero":"Promosiones",
+    "precio":250,
+    "img":"img/cuadernos.jpg",
+    "Descripcion":"Cuadernos marca Patito, rayados 120 hojas, la mayor calidad al más bajo precio",
+    "cantidad":1
+},
+    {
+    "id":5,
+    "nombre":"Kit vuelta a la escuela",
+    "tipo":"Kit todo incluido",
+    "Genero":"Promosiones", 
+    "precio":800, 
+    "img":"img/utiles2.jpg",
+    "Descripcion":"El kit incluye más de 15 productos que son indispensables para la escuela a un precio super bajo!",
+    "cantidad":1
+},
+    {
+    "id":6,
+    "nombre":"Lapices de colores",
+    "tipo":"Madera",
+    "Genero":"Promosiones", 
+    "precio":200, 
+    "img":"img/lapiz.jpg",
+    "Descripcion":"14 lapices de colores, marca Patito acuarelas para que tu hijo pueda colorear",
+    "cantidad":1
+},
+
+{
+    "id":7,
+    "nombre":"Kit vuelta al colegio 2",
+    "tipo":"3D",
+    "Genero":"Utiles escolares", 
+    "precio":600, 
+    "img":"img/utiles.jpg",
+    "Descripcion":"Kit vuelta al colegio, contiene 10 de las cosas que siempre se necesita al empezar el año",
+    "cantidad":1
+},
+{
+    "id":8,
+    "nombre":"Cartuchera",
+    "tipo":"Plastico",
+    "Genero":"Promosiones", 
+    "precio":300, 
+    "img":"img/cartuchera.jpg",
+    "Descripcion":"Catuchera de plastico con cierre de color azul, entra lo necesario para todos los días",
+    "cantidad":1
+},
+{
+    "id":9,
+    "nombre":"Hojas exito",
+    "tipo":"Papel",
+    "Genero":"Repuestos",
+    "precio":500, 
+    "img":"img/hojas-repuesto.jpg",
+    "Descripcion":"Hojas de repuesto marca  Exito 480 hojas, que durarán todo el año",
+    "cantidad":1
+}
+]
