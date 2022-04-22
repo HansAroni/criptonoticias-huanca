@@ -4,7 +4,7 @@ import "./cartwidget.css"
 function Cart (props) {
     return ( 
     <>
-        <button type="button" class="btn btn-warning">CARRITO</button>
+        <button type="button" class="btn btn-warning"><ion-icon name="cart-outline"></ion-icon></button>
     
     </> );
 }
