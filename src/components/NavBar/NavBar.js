@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './NavBar.css';
 import {MenuItems} from "./MenuItems"
 import { Button } from '../../Button';
-import Cart from "./cartwidget";
+import CartWidget from "./cartwidget";
 
 
 
@@ -48,7 +48,9 @@ class NavBar extends Component{
 
                     )}
                 </ul>
-                <Cart />
+                <ul>
+                    <li ><CartWidget qtty='1'/></li>     
+                </ul>
                 <Button> Sign up</Button>
             </nav>
         )

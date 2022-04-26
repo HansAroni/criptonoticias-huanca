@@ -1,13 +1,32 @@
 import React from "react";
-import "./ItemListContainer.css"
+import "./ItemListContainer.css";
+import ItemCount from './ItemCount';
 
-function Bienvenida(props) {
-    return ( 
+const ItemListContainer = ({greeting}) => {
+
+    const product = {
+        idProduct   : 256,
+        prodName    : 'Cardano',
+        description : 'Ada Cardano',
+        urlPnt     : '',
+        image       : '../../img/ada.png',
+        alt         : 'Ada-Cardano',
+        price       : 1.2 ,
+        stock       : 20,
+        initial     : 1,
+    };
+    function onAdd(qtty, price) {
+        console.log('La cantidad es: '+qtty+' precio:'+price);
+
+    }
+    return (
         <>
-        <h1 class="titulo">CriptoNoticias</h1>
-        <p class="parrafo">Bienvenido a criptonoticias!</p>
+            <h1> Contenido en construccion...</h1>  
+            <p> {greeting}</p>
+            <ItemCount stockMin={1} stockMax={5} product={product} />
         </>
-     );
+    )
+
 }
 
-export default Bienvenida;
+export default ItemListContainer;
