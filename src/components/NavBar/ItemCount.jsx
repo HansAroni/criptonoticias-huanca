@@ -19,8 +19,9 @@ function decrease() {
         setStock(stock - 1);
     }
 }
-function applyOnAdd() {
-    console.log(`Agregaste ${stock} a tu carrito`)
+const onAdd = () => {
+    const message = `Agregaste ${stock} producto`
+    stockMin === 1 ? alert(message) : alert(`${message}s`)
 }
 return (
     <>
@@ -34,7 +35,7 @@ return (
             <h5>{stock}</h5>
             <button onClick={increase} className='buttonChange'>+</button>
         </div>
-        <p><button onClick={applyOnAdd} className='addToCart'>Add to Cart</button></p>
+        <p><button onClick={onAdd} className='addToCart'>Add to Cart</button></p>
     </div>
     </>
 )

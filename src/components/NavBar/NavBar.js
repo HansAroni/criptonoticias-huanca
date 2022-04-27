@@ -49,7 +49,7 @@ class NavBar extends Component{
                     )}
                 </ul>
                 <ul>
-                    <li ><CartWidget qtty='1'/></li>     
+                    <li ><CartWidget qtty="1"/></li>     
                 </ul>
                 <Button> Sign up</Button>
             </nav>

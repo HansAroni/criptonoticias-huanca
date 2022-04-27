@@ -10,8 +10,6 @@ function App() {
       <ItemListContainer greeting=" Bienvenidos a Criptonoticias"/>
       <header className="App-header">
         
-        
-        
       </header>
     </div>
   );
