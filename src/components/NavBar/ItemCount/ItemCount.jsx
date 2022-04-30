@@ -1,13 +1,13 @@
-import React, { useState, useEffect} from "react";
+import React, { useState} from "react";
 import './ItemCount.css';
 
-const ItemCount = ({stockMin, stockMax, product}) =>{
+const ItemCount = ({stockMin, stockMax, item}) =>{
 
 console.log(stockMin, stockMax);
 
 const [stock, setStock] = useState(stockMin)
 
-const totalPrice = product.price * stock;
+const totalPrice = item.price * stock;
 
 function increase() {
     if (stock < stockMax) {
@@ -26,8 +26,8 @@ const onAdd = () => {
 return (
     <>
     <div className='card'>
-        <img src={product.image} alt={product.alt} width="100%" />
-        <a href={product.urlPnt}><h3>{product.prodName}</h3></a>
+        <img src={item.image} alt={item.alt} width="100%" />
+        <a href={item.urlPnt}><h3>{item.prodName}</h3></a>
 
         <p className="price">$ {totalPrice}</p>
         <div className='modifyQtty'>

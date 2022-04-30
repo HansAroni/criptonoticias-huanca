@@ -1,22 +1,8 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import {MenuItems} from "./MenuItems"
+import {MenuItems} from "./MenuItems";
 import { Button } from '../../Button';
 import CartWidget from "./cartwidget";
-
-
-
-// function NavBar(props) {
-//     return (
-//         <div>
-//             <ul className='nav'>
-//                 <a href="#">Inicio</a>
-//                 <a href="#">Contacto</a>
-//                 <a href="#">Nosotros</a>
-//             </ul>
-//         </div>
-//     );
-// }
 
 
 
