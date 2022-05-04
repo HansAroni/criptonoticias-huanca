@@ -1,46 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import CartWidget from './CartWidget/CartWidget';
 import './NavBar.css';
-import {MenuItems} from "./MenuItems";
-import { Button } from '../../Button';
-import CartWidget from "./cartwidget";
 
-
-
-class NavBar extends Component{
-    state = {clicked: false}
-
-    handleClick = () => {
-        this.setState({clicked: !this.state.clicked})
-    }
-
-    render(){
-        return(
-            <nav className='NavBarItems'>
-                <h1 className="navbar-logo" > CriptoNoticas <i className='fa-solid fa-bitcoin-sign'></i>
-                </h1>
-                <div className='menu-icon' onClick={this.handleClick}> 
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-                </div>
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                    {MenuItems.map((item, index)=>{
-                        return(
-                            <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                {item.title}    
-                                </a>
-                                </li>
-                        )
-                    }
-
-                    )}
-                </ul>
-                <ul>
-                    <li ><CartWidget qtty="1"/></li>     
-                </ul>
-                <Button> Sign up</Button>
-            </nav>
-        )
-    }
+function NavBar(props) {
+    return (
+        <div className='nav-container'>
+            <Link to='/'>
+                <img
+                    src='omg-logo.png'
+                    alt="OMG Comics"
+                />
+            </Link>
+            <ul className='nav'>
+                <li><NavLink to='/category/accion' className={nav => nav.isActive ? 'nav-active' : ''}>Accion</NavLink></li>
+                <li><NavLink to='/category/drama' className={nav => nav.isActive ? 'nav-active' : ''}>Drama</NavLink></li>
+                <li><NavLink to='/category/superheroes' className={nav => nav.isActive ? 'nav-active' : ''}>Superheroes</NavLink></li>
+            </ul>
+            <CartWidget/>
+        </div>
+    );
 }
+
 export default NavBar;
 
