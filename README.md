@@ -15,7 +15,7 @@ Instalación 🔧
 Clona el repositorio en visual studio o desde powershell copiando: **$ git clone https://github.com/HansAroni/criptonoticias-huanca-hans.git/**
 
 
-Tambien lo puedes descargar como Zip haciendo click en el siguiente link => https://github.com/HansAroni/criptonoticias-huanca-hans/archive/refs/heads/main.zip
+Tambien lo puedes descargar como Zip 👌 haciendo click en el siguiente link => https://github.com/HansAroni/criptonoticias-huanca-hans/archive/refs/heads/main.zip
 
 Ejecutando las pruebas ⚙️
 Explica como ejecutar las pruebas automatizadas para este sistema
@@ -46,15 +46,9 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra Wiki
 Versionado 📌
 Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
 
-Autores ✒️
-Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
+Autor ✒️
+Hans Huanca Aroni
 
-Andrés Villanueva - Trabajo Inicial - villanuevand
-Fulanito Detal - Documentación - fulanitodetal
-También puedes mirar la lista de todos los contribuyentes quíenes han participado en este proyecto.
-
-Licencia 📄
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo LICENSE.md para detalles
 
 Expresiones de Gratitud 🎁
 Comenta a otros sobre este proyecto 📢
