@@ -15,6 +15,11 @@ function ItemCount({ stock, initial, onAdd }) {
             setCount(count - 1)
         }
     }
+    function onAdd (count) {
+        const message = `Agregaste ${count} producto`
+        count === 1 ? alert(message) : alert(`${message}s`)
+    }
+    
 
     return (
         <div className='item-count-container'>
@@ -23,7 +28,7 @@ function ItemCount({ stock, initial, onAdd }) {
                 <input readOnly value={count} />
                 <button onClick={() => handlePlusButton()}>+</button>
             </div>
-            <button onClick={() => (count <= stock) && onAdd()}>Agregar al carrito</button>
+            <button onClick={() => (count <= stock) && onAdd(count)}>Agregar al carrito</button>
         </div>
     )
 }

@@ -8,14 +8,14 @@ function NavBar(props) {
         <div className='nav-container'>
             <Link to='/'>
                 <img
-                    src='omg-logo.png'
-                    alt="OMG Comics"
+                    src='https://image.shutterstock.com/image-vector/initial-c-crypto-logo-design-260nw-2013205661.jpg'
+                    alt="CrytoNoticias"
                 />
             </Link>
             <ul className='nav'>
-                <li><NavLink to='/category/accion' className={nav => nav.isActive ? 'nav-active' : ''}>Accion</NavLink></li>
-                <li><NavLink to='/category/drama' className={nav => nav.isActive ? 'nav-active' : ''}>Drama</NavLink></li>
-                <li><NavLink to='/category/superheroes' className={nav => nav.isActive ? 'nav-active' : ''}>Superheroes</NavLink></li>
+                <li><NavLink to='/category/Cryptocurrency' className={nav => nav.isActive ? 'nav-active' : ''}>Cryptocurrency</NavLink></li>
+                <li><NavLink to='/category/Fiat' className={nav => nav.isActive ? 'nav-active' : ''}>Fiat</NavLink></li>
+                <li><NavLink to='/' className={nav => nav.isActive ? 'nav-active' : ''}>All</NavLink></li>
             </ul>
             <CartWidget/>
         </div>

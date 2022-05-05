@@ -11,7 +11,7 @@ function Item({ item }) {
                 <img className='product-img' src={ item?.imageUrl } alt="Imagen del producto" />
             </div>
             <Link to={'/item/' + item?.id}>
-              <button>Ver Detalle</button>
+              <button className='Button'>Ver Detalle</button>
             </Link>
         </div>
         <div className='footer'>{ item?.price }</div>

@@ -2,6 +2,7 @@ import React from 'react';
 import ItemCount from '../ItemCount/ItemCount';
 import './ItemDetail.css'
 
+
 function ItemDetail({ item }) {
   return (
     <div className='item-detail'>

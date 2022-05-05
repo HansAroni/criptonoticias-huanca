@@ -3,4 +3,7 @@
     height: 100vh;
     display: flex;
     flex-flow: row wrap;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
 }

@@ -1,5 +1,10 @@
 .item-list {
     width: 100%;
     display: flex;
-    flex-flow: row wrap;
+}
+.card{
+    object-fit: contain;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: large;
+    font-weight: bold
 }
