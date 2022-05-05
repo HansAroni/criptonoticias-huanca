@@ -1,3 +1,71 @@
+CriptoNoticias
+
+Un nueva nueva pagina donde podrás ver las noticias cripto y además comprarlas!🚀
+
+Comenzando 
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+
+Puedes ingresar haciendo click en el siguiente link https://github.com/HansAroni/criptonoticias-huanca-hans
+
+Pre-requisitos 📋
+macOS 10.12 or later
+Windows 7 64-bit or later. You must have a 64-bit operating system to run GitHub Desktop.
+
+Instalación 🔧
+Clona el repositorio en visual studio o desde powershell copiando: **$ git clone https://github.com/HansAroni/criptonoticias-huanca-hans.git/**
+
+
+Tambien lo puedes descargar como Zip haciendo click en el siguiente link => https://github.com/HansAroni/criptonoticias-huanca-hans/archive/refs/heads/main.zip
+
+Ejecutando las pruebas ⚙️
+Explica como ejecutar las pruebas automatizadas para este sistema
+
+Analice las pruebas end-to-end 🔩
+Explica que verifican estas pruebas y por qué
+
+Da un ejemplo
+Y las pruebas de estilo de codificación ⌨️
+Explica que verifican estas pruebas y por qué
+
+Da un ejemplo
+Despliegue 📦
+Agrega notas adicionales sobre como hacer deploy
+
+Construido con 🛠️
+Menciona las herramientas que utilizaste para crear tu proyecto
+
+Dropwizard - El framework web usado
+Maven - Manejador de dependencias
+ROME - Usado para generar RSS
+Contribuyendo 🖇️
+Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+
+Wiki 📖
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra Wiki
+
+Versionado 📌
+Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
+
+Autores ✒️
+Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
+
+Andrés Villanueva - Trabajo Inicial - villanuevand
+Fulanito Detal - Documentación - fulanitodetal
+También puedes mirar la lista de todos los contribuyentes quíenes han participado en este proyecto.
+
+Licencia 📄
+Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo LICENSE.md para detalles
+
+Expresiones de Gratitud 🎁
+Comenta a otros sobre este proyecto 📢
+Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
+Da las gracias públicamente 🤓.
+Dona con cripto a esta dirección: 0xf253fc233333078436d111175e5a76a649890000
+etc.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
