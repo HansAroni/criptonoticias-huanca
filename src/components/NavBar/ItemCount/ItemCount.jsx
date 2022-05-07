@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './ItemCount.css';
+import swal from 'sweetalert';
+
 
 function ItemCount({ stock, initial, onAdd }) {
     const [count, setCount] = useState(initial);
@@ -15,9 +17,21 @@ function ItemCount({ stock, initial, onAdd }) {
             setCount(count - 1)
         }
     }
-    function onAdd (count) {
+    function onAd (count) {
         const message = `Agregaste ${count} producto`
-        count === 1 ? alert(message) : alert(`${message}s`)
+        count === 1 ? swal({
+            title: "Muchas gracias",
+            text: `${message}`,
+            icon: "success",
+            button: "Aceptar",
+            timer: "2000",
+          }) : swal({
+            title: "Muchas gracias",
+            text: `${message}s`,
+            icon: "success",
+            button: "Aceptar",
+            timer: "2000",
+          }); 
     }
     
 

@@ -53,3 +53,12 @@
 .count-container {
     width: 80%;
 }
+.buttonCompra{
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+    text-decoration: none;
+}
