@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+#CriptoNoticias
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Un nueva nueva pagina donde podrás ver las noticias cripto y además comprarlas!🚀
 
-## Available Scripts
+Comenzando 
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-In the project directory, you can run:
+Puedes ingresar haciendo click en el siguiente link https://github.com/HansAroni/criptonoticias-huanca-hans
 
-### `npm start`
+Pre-requisitos 📋
+macOS 10.12 or later
+Windows 7 64-bit or later. You must have a 64-bit operating system to run GitHub Desktop.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Instalación 🔧
+Clona el repositorio en visual studio o desde powershell copiando: **$ git clone https://github.com/HansAroni/criptonoticias-huanca-hans.git/**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Tambien lo puedes descargar como Zip 👌 haciendo click en el siguiente link => https://github.com/HansAroni/criptonoticias-huanca-hans/archive/refs/heads/main.zip
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ejecutando las pruebas ⚙️
+Para esto necesitamos instalar el proyecto (favor ver la parte **Instalación 🔧)
 
-### `npm run build`
+Analice las pruebas end-to-end 🔩
+Realizamos pruebas de navegabilidad en la pagina web asegurandonos que se pueda tener una buena experiencia el usuario para ver los precios de las criptomonedas y tambien comprarlas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Decisiones:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este proyecto fue realizado en react para que fuese más rapido y con una forma más versatil, tomando los beneficios de javascript pero más rapido y con mejores conexiones a las apis y más adaptable a los distintos dispositivos  donde se va a ver la aplicación.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+La pagina tiene una esctructura **category/ID,  usamos ReactDOM.render y BrowserRouter para que tenga una nueva navegación. 📦
 
-### `npm run eject`
+ **dependencies: 🛠️
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.3.1",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Versionado 📌
+V1.0
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Autor ✒️
+Hans Huanca Aroni
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Expresiones de Gratitud 🎁
+Gracias a mi tutor Ernesto y a 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
