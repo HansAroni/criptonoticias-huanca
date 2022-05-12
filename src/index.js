@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
+import { CartContextProvider } from './store/cart-context';
 
 // const root = document.getElementById('root')
 
@@ -13,7 +14,9 @@ import { BrowserRouter } from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <CartContextProvider>
+        <App />
+      </CartContextProvider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
