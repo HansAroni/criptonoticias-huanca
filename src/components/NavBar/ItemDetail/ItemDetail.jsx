@@ -1,9 +1,8 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext} from 'react';
 import { Link } from 'react-router-dom';
 import CartContext from '../../../store/cart-context';
 import ItemCount from '../ItemCount/ItemCount';
 import './ItemDetail.css'
-
 
 function ItemDetail({ item }) {
     const cartCtx = useContext(CartContext);
@@ -22,16 +21,11 @@ function ItemDetail({ item }) {
         <div className='right'>
             <div className='info-container'>
                 <h2>{ item?.title }</h2>
-                <p>{ item?.price }</p>
+                <p>${ item?.price }</p>
                 <div className='count-container'>
                     <ItemCount initial={0} stock={item.stock} onAdd={addHandler} />
-                    <button onClick={() => console.log(cartCtx.products)} >Imprimir carrito</button>
-                    <button onClick={() => cartCtx.removeProduct(item.id)} >Remove product</button>
-                    <button onClick={() => cartCtx.clear()} >Clear</button>
-                    <button onClick={() => console.log(cartCtx.isInCart(item.id))} >Is in cart</button>
-                    <button onClick={() => console.log(cartCtx.getCartQuantity())} >Quantity</button>
-                    {cartCtx.products.length &&
-                        <button onClick={() => console.log(cartCtx)}>
+                    {cartCtx.isInCart(item.id) &&
+                        <button className='button-brown mt'>
                             <Link to='/cart'>
                                 Terminar compra ({ cartCtx.getCartQuantity() } items)
                             </Link>

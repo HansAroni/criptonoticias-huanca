@@ -39,10 +39,7 @@
     height: 60%;
     text-align: center;
     padding: 20px;
-    color: black;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: large;
-    font-weight: bold;
+    color: brown;
     font-size: x-large;
     display: flex;
     flex-direction: column;
@@ -53,12 +50,13 @@
 .count-container {
     width: 80%;
 }
-.buttonCompra{
+
+.count-container a {
     color: black;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: large;
-    font-weight: bold;
-    font-size: large;
-    align-items: center;
     text-decoration: none;
+    padding: 10px;
+}
+
+.mt {
+    margin-top: 20px;
 }
