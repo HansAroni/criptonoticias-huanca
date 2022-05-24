@@ -6,6 +6,7 @@ import './Cart.css';
 
 function Cart() {
   const cartCtx = useContext(CartContext);
+  const {clear} = useContext(CartContext)
 
   return (
     <div className='cart'>
@@ -13,7 +14,12 @@ function Cart() {
       {cartCtx.products.length !== 0 ?
         <div className='total-container'>
           <p>Precio total: ${cartCtx.getTotalPrice()}</p>
-          <button>Terminar compra</button>
+          <button className='button-brown'>
+            <Link to='/checkout'>Finalizar compra</Link>
+          </button>
+          <br/>
+              <button className="btn btn-danger" onClick={clear}>Vaciar Carrito</button>
+              <br />
         </div> :
         <>
           <h2>No hay productos en el carrito</h2>

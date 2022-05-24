@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+// import ItemList from "../components/NavBar/ItemList/ItemList";
 
 const CartContext = createContext({
     products: [],
@@ -9,6 +10,7 @@ const CartContext = createContext({
     getCartQuantity: () => {},
     getTotalPrice: () => {}
 });
+
 
 export const CartContextProvider = ({ children }) => {
     const [productList, setProductList] = useState([]);
@@ -54,6 +56,7 @@ export const CartContextProvider = ({ children }) => {
     return (
         <CartContext.Provider value={{
             products: productList,
+            // title: item.title,
             addProduct,
             removeProduct,
             clear,
@@ -64,6 +67,8 @@ export const CartContextProvider = ({ children }) => {
             {children}
         </CartContext.Provider>
     )
+
+    
 }
 
 export default CartContext;
