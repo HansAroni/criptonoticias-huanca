@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { Auth0Provider } from '@auth0/auth0-react';
 import { BrowserRouter } from 'react-router-dom';
 import { CartContextProvider } from './store/cart-context';
 import { initializeApp } from "firebase/app";
@@ -26,7 +27,9 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <CartContextProvider>
+        <Auth0Provider domain='dev-9fzzxx28.us.auth0.com' clientId='bIKqiPWA0eI31s1QwGijHHJ3gjlGR4S2' redirectUri={window.location.origin}>
         <App />
+        </Auth0Provider>
       </CartContextProvider>
     </BrowserRouter>
   </React.StrictMode>,

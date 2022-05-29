@@ -14,26 +14,26 @@
 .cart .total-container p {
     font-weight: bold;
     font-size: x-large;
-    color: brown;
+    color: black;
 }
 
 .cart .total-container button {
-    border: none;
+    
     color: white;
     padding: 10px;
     border-radius: 10px;
-    background-color: brown;
+    background-color: black;
 }
 
 .cart h2 {
-    color: brown;
+    color: black;
 }
 
 .button-brown {
-    border: none;
+    
     padding: 10px;
     border-radius: 10px;
-    background-color: brown;
+    background-color: black;
 }
 
 .button-brown a {

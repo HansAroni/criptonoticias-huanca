@@ -18,10 +18,11 @@ const Checkout = () => {
     const [buyer, setBuyer] = useState({
         Nombre:'',
         Email:'',
+        Emailc:'',
         Telefono:''
     })
 
-    const {Nombre, Email, Telefono} = buyer
+    const {Nombre, Email, Emailc, Telefono} = buyer
 
     const handleInputChange = (e) => {
         setBuyer(({
@@ -81,6 +82,15 @@ const Checkout = () => {
                             name="Email"
                             placeholder="Email"
                             value={Email}
+                            onChange={handleInputChange}
+                            required
+                        />
+                        <br />
+                        <input
+                            type="email"
+                            name="Emailc"
+                            placeholder="Confirmar Email"
+                            value={Emailc}
                             onChange={handleInputChange}
                             required
                         />

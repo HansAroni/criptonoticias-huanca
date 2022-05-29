@@ -1,0 +1,8 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10%;
+    left: 85%;
+    font-size: small;
+  }

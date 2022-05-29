@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row-reverse;
     font-family: 'Fira Sans', sans-serif;
     font-size: large;
     font-weight: bold;

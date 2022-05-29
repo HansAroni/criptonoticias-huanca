@@ -18,6 +18,7 @@ function Cart() {
             <Link to='/checkout'>Finalizar compra</Link>
           </button>
           <br/>
+          <br />
               <button className="btn btn-danger" onClick={clear}>Vaciar Carrito</button>
               <br />
         </div> :
