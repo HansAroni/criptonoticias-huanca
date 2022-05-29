@@ -14,6 +14,7 @@ Windows 7 64-bit or later. You must have a 64-bit operating system to run GitHub
 Instalación 🔧
 Clona el repositorio en visual studio o desde powershell copiando: **$ git clone https://github.com/HansAroni/criptonoticias-huanca-hans.git/**
 
+Luego una vez descargado, hay que instalar las dependencias copiando **$ npm install
 
 Tambien lo puedes descargar como Zip 👌 haciendo click en el siguiente link => https://github.com/HansAroni/criptonoticias-huanca-hans/archive/refs/heads/main.zip
 
@@ -31,21 +32,24 @@ La pagina tiene una esctructura **category/ID,  usamos ReactDOM.render y Browser
 
  **dependencies: 🛠️
 
+    "@auth0/auth0-react": "^1.10.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.1.3",
+    "firebase": "^9.8.1",
     "react": "^18.0.0",
     "react-bootstrap": "^2.3.1",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "sweetalert": "^2.1.2",
     "web-vitals": "^2.1.4"
 
 
 Versionado 📌
-V1.0
+V1.2
 
 Autor ✒️
 Hans Huanca Aroni
